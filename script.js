@@ -35,7 +35,7 @@ var button = document.createElement("button")
 button.setAttribute("type","button")
 button.innerHTML="click me"
 button.addEventListener("click",loguser)
-document.body.append(lable_email,email_br1,input_email,email_br2,lable_fisrt,first_br1,input_first,first_br2,lable_middle,middle_br1,input_middle,middle_br2,lable_last,last_br1,input_last,last_brbtn,button);
+document.body.append(lable_fisrt,first_br1,input_first,first_br2,lable_middle,middle_br1,input_middle,middle_br2,lable_last,last_br1,input_last,last_brbtn,lable_email,email_br1,input_email,email_br2,button);
 
 function loguser(){
     var  email = document.getElementById("email").value
